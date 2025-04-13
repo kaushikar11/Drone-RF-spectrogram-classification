@@ -1,0 +1,84 @@
+{
+    "model_name": "ResNeXt-50",
+    "test_accuracy": 0.9568156214795344,
+    "inference_time_ms": 7.945647239685059,
+    "model_size_mb": 87.71609115600586,
+    "parameters": 22994247,
+    "flops": 4286150656,
+    "macs": 22994247,
+    "roc_auc_score": 0.9911335419443087,
+    "per_class_accuracy": {
+        "DJI": 0.875,
+        "FutabaT14": 0.8978102189781022,
+        "FutabaT7": 0.9247311827956989,
+        "Graupner": 0.9813084112149533,
+        "Noise": 0.987062404870624,
+        "Taranis": 0.9850746268656716,
+        "Turnigy": 0.9699248120300752
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9776536312849162,
+            "recall": 0.875,
+            "f1-score": 0.9234828496042217,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9590643274853801,
+            "recall": 0.8978102189781022,
+            "f1-score": 0.9274269557021677,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.9772727272727273,
+            "recall": 0.9247311827956989,
+            "f1-score": 0.9502762430939227,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 0.9905660377358491,
+            "recall": 0.9813084112149533,
+            "f1-score": 0.9859154929577464,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.9371387283236994,
+            "recall": 0.987062404870624,
+            "f1-score": 0.961452928094885,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 1.0,
+            "recall": 0.9850746268656716,
+            "f1-score": 0.9924812030075187,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 1.0,
+            "recall": 0.9699248120300752,
+            "f1-score": 0.9847328244274809,
+            "support": 133
+        },
+        "accuracy": 0.9568156214795344,
+        "macro avg": {
+            "precision": 0.9773850645860817,
+            "recall": 0.9458445223935892,
+            "f1-score": 0.9608240709839919,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9577075465303838,
+            "recall": 0.9568156214795344,
+            "f1-score": 0.9564771932299643,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Extension of ResNet that aggregates residual transformations",
+        "Uses split-transform-merge strategy with grouped convolutions",
+        "Better performance than ResNet with similar complexity",
+        "Higher accuracy-to-computation ratio than many models",
+        "Cardinality dimension provides a more effective way to adjust model capacity"
+    ]
+}

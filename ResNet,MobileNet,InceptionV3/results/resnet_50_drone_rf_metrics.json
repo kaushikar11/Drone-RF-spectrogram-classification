@@ -1,0 +1,84 @@
+{
+    "model_name": "ResNet-50",
+    "test_accuracy": 0.9538114907998498,
+    "inference_time_ms": 5.656428337097168,
+    "model_size_mb": 89.73073959350586,
+    "parameters": 23522375,
+    "flops": 4131708928,
+    "macs": 23522375,
+    "roc_auc_score": 0.99056432140495,
+    "per_class_accuracy": {
+        "DJI": 0.865,
+        "FutabaT14": 0.8923357664233577,
+        "FutabaT7": 0.9247311827956989,
+        "Graupner": 0.9719626168224299,
+        "Noise": 0.9863013698630136,
+        "Taranis": 0.9850746268656716,
+        "Turnigy": 0.9624060150375939
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9719101123595506,
+            "recall": 0.865,
+            "f1-score": 0.9153439153439153,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9569471624266145,
+            "recall": 0.8923357664233577,
+            "f1-score": 0.9235127478753541,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.9885057471264368,
+            "recall": 0.9247311827956989,
+            "f1-score": 0.9555555555555556,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 1.0,
+            "recall": 0.9719626168224299,
+            "f1-score": 0.985781990521327,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.9323741007194245,
+            "recall": 0.9863013698630136,
+            "f1-score": 0.9585798816568046,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 1.0,
+            "recall": 0.9850746268656716,
+            "f1-score": 0.9924812030075187,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 0.9922480620155039,
+            "recall": 0.9624060150375939,
+            "f1-score": 0.9770992366412213,
+            "support": 133
+        },
+        "accuracy": 0.9538114907998498,
+        "macro avg": {
+            "precision": 0.9774264549496472,
+            "recall": 0.9411159396868236,
+            "f1-score": 0.9583363615145281,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9548736997964098,
+            "recall": 0.9538114907998498,
+            "f1-score": 0.9534405685066709,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Deep residual network with skip connections to solve the vanishing gradient problem",
+        "50-layer architecture with bottleneck blocks",
+        "Well-established architecture with strong performance",
+        "Uses batch normalization after each convolutional layer",
+        "Popular backbone for many computer vision tasks"
+    ]
+}

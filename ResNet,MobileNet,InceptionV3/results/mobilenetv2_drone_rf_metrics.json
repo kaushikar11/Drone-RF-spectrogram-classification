@@ -1,0 +1,84 @@
+{
+    "model_name": "MobileNetV2",
+    "test_accuracy": 0.9504318437852046,
+    "inference_time_ms": 5.223252773284912,
+    "model_size_mb": 8.51760482788086,
+    "parameters": 2232839,
+    "flops": 326215680,
+    "macs": 2232839,
+    "roc_auc_score": 0.9894444559262922,
+    "per_class_accuracy": {
+        "DJI": 0.855,
+        "FutabaT14": 0.8740875912408759,
+        "FutabaT7": 0.9139784946236559,
+        "Graupner": 0.9813084112149533,
+        "Noise": 0.9885844748858448,
+        "Taranis": 0.9888059701492538,
+        "Turnigy": 0.9548872180451128
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9715909090909091,
+            "recall": 0.855,
+            "f1-score": 0.9095744680851063,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9755600814663951,
+            "recall": 0.8740875912408759,
+            "f1-score": 0.9220404234841194,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.9883720930232558,
+            "recall": 0.9139784946236559,
+            "f1-score": 0.9497206703910613,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 0.963302752293578,
+            "recall": 0.9813084112149533,
+            "f1-score": 0.9722222222222222,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.9245551601423487,
+            "recall": 0.9885844748858448,
+            "f1-score": 0.9554983449797719,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 0.9962406015037594,
+            "recall": 0.9888059701492538,
+            "f1-score": 0.9925093632958802,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 0.9769230769230769,
+            "recall": 0.9548872180451128,
+            "f1-score": 0.9657794676806083,
+            "support": 133
+        },
+        "accuracy": 0.9504318437852046,
+        "macro avg": {
+            "precision": 0.9709349534919033,
+            "recall": 0.936664594308528,
+            "f1-score": 0.9524778514483957,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9521989622490292,
+            "recall": 0.9504318437852046,
+            "f1-score": 0.9498726435143455,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Designed specifically for mobile and edge devices",
+        "Uses inverted residual blocks with linear bottlenecks",
+        "Employs depthwise separable convolutions for efficiency",
+        "Excellent trade-off between accuracy and computational cost",
+        "Well-suited for real-time applications with limited resources"
+    ]
+}

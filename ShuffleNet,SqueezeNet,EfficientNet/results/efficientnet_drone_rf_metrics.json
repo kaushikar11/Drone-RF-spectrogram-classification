@@ -1,0 +1,83 @@
+{
+    "model_name": "EfficientNet",
+    "test_accuracy": 0.9376642883965453,
+    "inference_time_ms": 8.262708187103271,
+    "model_size_mb": 15.321788787841797,
+    "parameters": 4016515,
+    "flops": 413873984,
+    "macs": 4016515,
+    "roc_auc_score": 0.9875391283478169,
+    "per_class_accuracy": {
+        "DJI": 0.85,
+        "FutabaT14": 0.8503649635036497,
+        "FutabaT7": 0.9139784946236559,
+        "Graupner": 0.9813084112149533,
+        "Noise": 0.9817351598173516,
+        "Taranis": 0.9664179104477612,
+        "Turnigy": 0.9172932330827067
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9340659340659341,
+            "recall": 0.85,
+            "f1-score": 0.8900523560209425,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9490835030549898,
+            "recall": 0.8503649635036497,
+            "f1-score": 0.8970163618864293,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.9444444444444444,
+            "recall": 0.9139784946236559,
+            "f1-score": 0.9289617486338798,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 0.9375,
+            "recall": 0.9813084112149533,
+            "f1-score": 0.958904109589041,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.9181494661921709,
+            "recall": 0.9817351598173516,
+            "f1-score": 0.9488782640676718,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 1.0,
+            "recall": 0.9664179104477612,
+            "f1-score": 0.9829222011385199,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 0.9838709677419355,
+            "recall": 0.9172932330827067,
+            "f1-score": 0.9494163424124513,
+            "support": 133
+        },
+        "accuracy": 0.9376642883965453,
+        "macro avg": {
+            "precision": 0.9524449022142107,
+            "recall": 0.9230140246700113,
+            "f1-score": 0.9365930548212766,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9389260297059124,
+            "recall": 0.9376642883965453,
+            "f1-score": 0.9369482472015884,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Uses compound scaling to balance network depth, width, and resolution",
+        "Achieves state-of-the-art accuracy with fewer parameters",
+        "Family of models with different size-accuracy tradeoffs (B0-B7)",
+        "Uses MBConv blocks with squeeze-and-excitation optimization"
+    ]
+}

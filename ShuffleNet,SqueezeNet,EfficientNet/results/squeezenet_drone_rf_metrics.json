@@ -1,0 +1,83 @@
+{
+    "model_name": "SqueezeNet",
+    "test_accuracy": 0.944048066090875,
+    "inference_time_ms": 2.243828773498535,
+    "model_size_mb": 2.7698020935058594,
+    "parameters": 726087,
+    "flops": 263230822,
+    "macs": 726087,
+    "roc_auc_score": 0.9890830067982657,
+    "per_class_accuracy": {
+        "DJI": 0.84,
+        "FutabaT14": 0.8667883211678832,
+        "FutabaT7": 0.8924731182795699,
+        "Graupner": 0.9626168224299065,
+        "Noise": 0.9832572298325722,
+        "Taranis": 0.9888059701492538,
+        "Turnigy": 0.9624060150375939
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9491525423728814,
+            "recall": 0.84,
+            "f1-score": 0.8912466843501327,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9595959595959596,
+            "recall": 0.8667883211678832,
+            "f1-score": 0.9108341323106424,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.9431818181818182,
+            "recall": 0.8924731182795699,
+            "f1-score": 0.9171270718232044,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 0.9903846153846154,
+            "recall": 0.9626168224299065,
+            "f1-score": 0.976303317535545,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.9228571428571428,
+            "recall": 0.9832572298325722,
+            "f1-score": 0.9521002210759026,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 0.9962406015037594,
+            "recall": 0.9888059701492538,
+            "f1-score": 0.9925093632958802,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 0.9624060150375939,
+            "recall": 0.9624060150375939,
+            "f1-score": 0.9624060150375939,
+            "support": 133
+        },
+        "accuracy": 0.944048066090875,
+        "macro avg": {
+            "precision": 0.9605455278476815,
+            "recall": 0.9280496395566827,
+            "f1-score": 0.9432181150612716,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9451757131759362,
+            "recall": 0.944048066090875,
+            "f1-score": 0.9433706022865761,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Extremely lightweight model (around 3MB)",
+        "Uses 'fire modules' with squeeze and expand layers",
+        "Achieves AlexNet-level accuracy with 50x fewer parameters",
+        "Ideal for resource-constrained environments like drones"
+    ]
+}

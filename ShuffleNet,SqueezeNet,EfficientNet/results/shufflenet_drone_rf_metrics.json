@@ -1,0 +1,83 @@
+{
+    "model_name": "ShuffleNet",
+    "test_accuracy": 0.9248967330078859,
+    "inference_time_ms": 6.553757190704346,
+    "model_size_mb": 4.809490203857422,
+    "parameters": 1260779,
+    "flops": 151691960,
+    "macs": 1260779,
+    "roc_auc_score": 0.9742507385516118,
+    "per_class_accuracy": {
+        "DJI": 0.77,
+        "FutabaT14": 0.8284671532846716,
+        "FutabaT7": 0.8817204301075269,
+        "Graupner": 0.9626168224299065,
+        "Noise": 0.9817351598173516,
+        "Taranis": 0.9701492537313433,
+        "Turnigy": 0.9022556390977443
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.927710843373494,
+            "recall": 0.77,
+            "f1-score": 0.8415300546448088,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9537815126050421,
+            "recall": 0.8284671532846716,
+            "f1-score": 0.8867187500000001,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.8913043478260869,
+            "recall": 0.8817204301075269,
+            "f1-score": 0.8864864864864864,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 1.0,
+            "recall": 0.9626168224299065,
+            "f1-score": 0.9809523809523809,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.893970893970894,
+            "recall": 0.9817351598173516,
+            "f1-score": 0.9357997823721438,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 0.9923664122137404,
+            "recall": 0.9701492537313433,
+            "f1-score": 0.9811320754716981,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 0.9917355371900827,
+            "recall": 0.9022556390977443,
+            "f1-score": 0.9448818897637795,
+            "support": 133
+        },
+        "accuracy": 0.9248967330078859,
+        "macro avg": {
+            "precision": 0.95012422102562,
+            "recall": 0.8995634940669349,
+            "f1-score": 0.9225002028130425,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9277651226163747,
+            "recall": 0.9248967330078859,
+            "f1-score": 0.9237276137950073,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Designed for mobile devices with limited computing power",
+        "Uses pointwise group convolutions and channel shuffle operations",
+        "Very computationally efficient with low FLOPs",
+        "Good balance between accuracy and model size"
+    ]
+}

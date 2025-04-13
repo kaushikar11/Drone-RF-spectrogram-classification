@@ -1,0 +1,84 @@
+{
+    "model_name": "Wide ResNet-50",
+    "test_accuracy": 0.9568156214795344,
+    "inference_time_ms": 7.82836675643921,
+    "model_size_mb": 255.00710678100586,
+    "parameters": 66848583,
+    "flops": 11453691904,
+    "macs": 66848583,
+    "roc_auc_score": 0.9891748556865754,
+    "per_class_accuracy": {
+        "DJI": 0.87,
+        "FutabaT14": 0.8996350364963503,
+        "FutabaT7": 0.9247311827956989,
+        "Graupner": 0.9813084112149533,
+        "Noise": 0.9878234398782344,
+        "Taranis": 0.9850746268656716,
+        "Turnigy": 0.9624060150375939
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9830508474576272,
+            "recall": 0.87,
+            "f1-score": 0.923076923076923,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9591439688715954,
+            "recall": 0.8996350364963503,
+            "f1-score": 0.9284369114877589,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 1.0,
+            "recall": 0.9247311827956989,
+            "f1-score": 0.9608938547486032,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 1.0,
+            "recall": 0.9813084112149533,
+            "f1-score": 0.9905660377358491,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.935832732516222,
+            "recall": 0.9878234398782344,
+            "f1-score": 0.9611255090707146,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 0.9962264150943396,
+            "recall": 0.9850746268656716,
+            "f1-score": 0.9906191369606003,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 0.9922480620155039,
+            "recall": 0.9624060150375939,
+            "f1-score": 0.9770992366412213,
+            "support": 133
+        },
+        "accuracy": 0.9568156214795344,
+        "macro avg": {
+            "precision": 0.9809288608507555,
+            "recall": 0.944425530326929,
+            "f1-score": 0.9616882299602386,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9578907046386859,
+            "recall": 0.9568156214795344,
+            "f1-score": 0.9564819950197802,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Modification of ResNet with increased width (channel count) and reduced depth",
+        "Wider networks often achieve better performance than deeper ones",
+        "More efficient to train than very deep networks",
+        "Better feature extraction capability with wider channels",
+        "Strong classification performance with reasonable computational cost"
+    ]
+}

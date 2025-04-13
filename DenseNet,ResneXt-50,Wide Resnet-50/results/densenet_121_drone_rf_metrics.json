@@ -1,0 +1,84 @@
+{
+    "model_name": "DenseNet-121",
+    "test_accuracy": 0.9568156214795344,
+    "inference_time_ms": 16.6160249710083,
+    "model_size_mb": 26.55422592163086,
+    "parameters": 6961031,
+    "flops": 2895990272,
+    "macs": 6961031,
+    "roc_auc_score": 0.991401472240742,
+    "per_class_accuracy": {
+        "DJI": 0.885,
+        "FutabaT14": 0.8886861313868614,
+        "FutabaT7": 0.9247311827956989,
+        "Graupner": 0.9906542056074766,
+        "Noise": 0.9885844748858448,
+        "Taranis": 0.9850746268656716,
+        "Turnigy": 0.9699248120300752
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9725274725274725,
+            "recall": 0.885,
+            "f1-score": 0.9267015706806283,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9779116465863453,
+            "recall": 0.8886861313868614,
+            "f1-score": 0.9311663479923518,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.9052631578947369,
+            "recall": 0.9247311827956989,
+            "f1-score": 0.9148936170212766,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 1.0,
+            "recall": 0.9906542056074766,
+            "f1-score": 0.9953051643192489,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.9352051835853131,
+            "recall": 0.9885844748858448,
+            "f1-score": 0.9611542730299667,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 1.0,
+            "recall": 0.9850746268656716,
+            "f1-score": 0.9924812030075187,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 1.0,
+            "recall": 0.9699248120300752,
+            "f1-score": 0.9847328244274809,
+            "support": 133
+        },
+        "accuracy": 0.9568156214795344,
+        "macro avg": {
+            "precision": 0.9701296372276954,
+            "recall": 0.9475222047959468,
+            "f1-score": 0.9580621429254961,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.958111213574962,
+            "recall": 0.9568156214795344,
+            "f1-score": 0.9564826791653468,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Dense connectivity pattern with direct connections from any layer to all subsequent layers",
+        "Excellent feature reuse through dense connections",
+        "Requires fewer parameters due to feature reuse",
+        "Good performance with reduced overfitting",
+        "Efficient gradient flow during training"
+    ]
+}

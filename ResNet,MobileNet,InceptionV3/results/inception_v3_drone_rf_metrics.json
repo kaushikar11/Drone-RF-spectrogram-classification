@@ -1,0 +1,84 @@
+{
+    "model_name": "Inception-v3",
+    "test_accuracy": 0.9515583927900864,
+    "inference_time_ms": 11.958208084106445,
+    "model_size_mb": 92.93743133544922,
+    "parameters": 24362990,
+    "flops": 5747185504,
+    "macs": 21799911,
+    "roc_auc_score": 0.9888015089355721,
+    "per_class_accuracy": {
+        "DJI": 0.865,
+        "FutabaT14": 0.8813868613138686,
+        "FutabaT7": 0.9247311827956989,
+        "Graupner": 0.9813084112149533,
+        "Noise": 0.9878234398782344,
+        "Taranis": 0.9776119402985075,
+        "Turnigy": 0.9548872180451128
+    },
+    "snr_performance": [],
+    "classification_report": {
+        "DJI": {
+            "precision": 0.9505494505494505,
+            "recall": 0.865,
+            "f1-score": 0.9057591623036648,
+            "support": 200
+        },
+        "FutabaT14": {
+            "precision": 0.9545454545454546,
+            "recall": 0.8813868613138686,
+            "f1-score": 0.9165085388994306,
+            "support": 548
+        },
+        "FutabaT7": {
+            "precision": 0.9885057471264368,
+            "recall": 0.9247311827956989,
+            "f1-score": 0.9555555555555556,
+            "support": 93
+        },
+        "Graupner": {
+            "precision": 0.9905660377358491,
+            "recall": 0.9813084112149533,
+            "f1-score": 0.9859154929577464,
+            "support": 107
+        },
+        "Noise": {
+            "precision": 0.9318018664752333,
+            "recall": 0.9878234398782344,
+            "f1-score": 0.9589951976357591,
+            "support": 1314
+        },
+        "Taranis": {
+            "precision": 1.0,
+            "recall": 0.9776119402985075,
+            "f1-score": 0.9886792452830189,
+            "support": 268
+        },
+        "Turnigy": {
+            "precision": 1.0,
+            "recall": 0.9548872180451128,
+            "f1-score": 0.9769230769230769,
+            "support": 133
+        },
+        "accuracy": 0.9515583927900864,
+        "macro avg": {
+            "precision": 0.9737097937760606,
+            "recall": 0.9389641505066251,
+            "f1-score": 0.9554766099368932,
+            "support": 2663
+        },
+        "weighted avg": {
+            "precision": 0.9525009584189824,
+            "recall": 0.9515583927900864,
+            "f1-score": 0.9510982474092273,
+            "support": 2663
+        }
+    },
+    "characteristics": [
+        "Uses multiple parallel convolutional filters of different sizes",
+        "Efficient 'Inception modules' capture features at multiple scales",
+        "Employs factorized convolutions to reduce parameters",
+        "Auxiliary classifiers during training to improve convergence",
+        "Sophisticated architecture with strong performance on complex tasks"
+    ]
+}
